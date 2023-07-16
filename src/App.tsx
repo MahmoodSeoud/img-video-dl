@@ -1,7 +1,12 @@
+import Toolbar from "./components/Toolbar/Toolbar";
+import './App.css'
+import ContextMenuOption from "./components/ContextMenuOption/ContextMenuOption";
+
 function App() {
   return (
     <div className="App">
-      Hello World
+      <ContextMenuOption />
+      <Toolbar />
     </div>
   );
 }
