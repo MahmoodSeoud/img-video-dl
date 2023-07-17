@@ -37,3 +37,20 @@
     transform: rotate(360deg);
   }
 }
+
+/* styles.css */
+.settings-icon {
+  /* Default settings icon style */
+  width: 25px;
+  height: 25px;
+  color: grey;
+  cursor: pointer; /* Add a pointer cursor to indicate clickability */
+
+  /* Animation for hover effect */
+  transition: color 0.3s ease-in-out;
+}
+
+/* Style changes on hover */
+.settings-icon:hover {
+  color: #61DAFB; /* Change the color to blue on hover */
+}
